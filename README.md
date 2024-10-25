@@ -1,6 +1,6 @@
 # insufficient_evidence_panmictic_bottleneck
 
-
+A recent paper in Science proposed that humans went through a very strong population bottleneck around 1 million years ago. We do not believe the data is in support of this. This repo describes some analysis we did, demonstrating that simpler panmictic models without the bottleneck better fit the data. 
 
 ## Real data processing
 
