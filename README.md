@@ -17,7 +17,7 @@ Write the SFS with write_SFS_submission_nopolarisation_241011.sh which calls wri
 
 This processing is analogous to that in "GRCh38, neutral, unpolarized", except we used the GRCh37 VCFs as downloaded from http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ . The mappability mask was downloaded from http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessible_genome_masks .
 
-### GRCh37, neutral, unpolarized
+### GRCh37, noncoding, polarized
 
 Annotations (for exonic regions etc) were downloaded from https://www.gencodegenes.org/human/release_35lift37.html .<br>
 Coding regions (as described by HAVANA or ENSEMBL) were obtained with :
