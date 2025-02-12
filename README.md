@@ -43,7 +43,7 @@ Using each of the 3 data sets, we inferred a model with FitCoal using infer_FitC
 
 ## Analysis 
 
-Various other bits of analysis are done in plots_for_paper_241025_upload.ipynb<br>
+Various other bits of analysis are done in plots_for_paper_upload_250212.ipynb
 
 ## Preprint
 
