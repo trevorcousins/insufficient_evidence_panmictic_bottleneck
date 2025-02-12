@@ -8,7 +8,7 @@ for zpop in YRI ESN MSL GBR TSI CHB JPT
                     outfileflag=${outprefix}SFS_expected_observed.png
                     if [ ! -f ${outfileflag} ]; then
                         echo file DOES NOT exist
-                        commandline="python /home/tc557/falsifying_bottleneck/infer_mushi_model_241011.py -pop ${zpop} -out_prefix ${outprefix} -trend_1 ${trend_1} -trend_2 ${trend_2} -ridge ${ridge} -mu 1.25e-08 -pts 200 -most_ancient_gens 2e+5 -maxiter 300 -folded $folded"
+                        commandline="python /home/tc557/falsifying_bottleneck/infer_mushi_model_241011.py -pop ${zpop} -out_prefix ${outprefix} -trend_1 ${trend_1} -trend_2 ${trend_2} -ridge ${ridge} -mu 1.25e-08 -pts 200 -most_ancient_gens 5e+04 -maxiter 300 -folded $folded"
                         echo $commandline
                         sbatch --wrap="$commandline" -p icelake -t 00:02:00 -A DURBIN-SL2-CPU --mem=2G
                     else
