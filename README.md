@@ -45,6 +45,6 @@ Using each of the 3 data sets, we inferred a model with FitCoal using infer_FitC
 
 Various other bits of analysis are done in plots_for_paper_upload_250212.ipynb
 
-## Preprint
+## Publication
 
-Our preprint is available to read at https://www.biorxiv.org/content/10.1101/2024.10.21.619456v1
+Our paper is available in [Molecular Biology and Evolution](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaf041/8005733?utm_source=advanceaccess&utm_campaign=mbe&utm_medium=email )
